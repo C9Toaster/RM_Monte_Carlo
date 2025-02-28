@@ -1,0 +1,23 @@
+\begin{table}
+\centering
+\caption{Monte Carlo Replication Results, Design 3}
+\label{table:MCReplicationResultsDesign3}
+\begin{tabular}{lcccc}
+\toprule
+Estimation Method & Parameter & Bias & n$\times$Var & MSE \\
+\midrule
+Complete case method & $\alpha_0$ & -0.000 & 0.210 & 0.001 \\
+ & $\beta_1$ & 0.003 & 2.193 & 0.005 \\
+ & $\beta_2$ & 0.000 & 2.129 & 0.005 \\
+Dummy case method & $\alpha_0$ & -0.092 & 0.365 & 0.009 \\
+ & $\beta_1$ & 0.549 & 7.006 & 0.318 \\
+ & $\beta_2$ & 0.546 & 7.537 & 0.317 \\
+Dagenais (FGLS) & $\alpha_0$ & -0.000 & 0.210 & 0.001 \\
+ & $\beta_1$ & 0.001 & 2.209 & 0.006 \\
+ & $\beta_2$ & 0.001 & 2.063 & 0.005 \\
+GMM & $\alpha_0$ & 0.000 & 0.215 & 0.001 \\
+ & $\beta_1$ & 0.001 & 2.143 & 0.005 \\
+ & $\beta_2$ & 0.000 & 2.042 & 0.005 \\
+\bottomrule
+\end{tabular}
+\end{table}
